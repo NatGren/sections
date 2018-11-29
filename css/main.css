@@ -1,7 +1,56 @@
 html {
   box-sizing: border-box;
+  font: normal 100%/1.5 sans-serif;
 }
 
 *, *::before, *::after {
   box-sizing: inherit;
+}
+
+section {
+  padding: .5rem;
+  text-align: left;
+}
+
+figure {
+  margin: 0;
+}
+
+img {
+  display: inline-block;
+  width: 100%;
+  max-width: 200%;
+}
+
+.btn-normal {
+  font-size: 1.125rem;
+  padding: .5em;
+}
+
+.btn {
+  display: inline-block;
+  padding: .4em .75em .3em;
+  border: 3px solid #333;
+  border-radius: 8px;
+  text-decoration: none;
+  background-color: #333;
+  color: #fff;
+  font-weight: 500;
+}
+
+.btn:hover {
+  background-color: #000;
+  border-color: #000;
+}
+
+.btn-ghost {
+  background-color: #fff;
+  color: #000;
+  font-weight: 500;
+}
+
+.btn-ghost:hover {
+  background-color: #666;
+  border-color: #666;
+  color: #fff;
 }
